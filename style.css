@@ -8,8 +8,9 @@ h1{
 }
 
 .container{
-    width: 100%;
+    width: 50%;
     height: 100vh;
+    margin: auto;
 }
 
 .container_i{
