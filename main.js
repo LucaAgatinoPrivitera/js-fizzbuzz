@@ -2,7 +2,7 @@
 let i = 1
 const contenitore = document.getElementById("container_numbers");
 //Ciclo che funziona, ma solo in console
-for (i; i <= 99; i++) {
+for (i; i <= 100; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
         console.log("fizzbuzz");
         contenitore.innerHTML = contenitore.innerHTML + `<div class="container_i_fizzbuzz"> <span>fizzbuzz</span> </div>`;
@@ -26,7 +26,7 @@ for (i; i <= 99; i++) {
 console.log(contenitore);
 // contenitore.innerHTML = contenitore.innerHTML + (newLi);
 // contenitore.createElement(i);
-contenitore.innerHTML = contenitore.innerHTML + `<div class="container_i"> <span>${i}</span> </div>`;
+// contenitore.innerHTML = contenitore.innerHTML + `<div class="container_i"> <span>${i}</span> </div>`; STAMPA IL 100 SENZA BUZZ
 
 
 
